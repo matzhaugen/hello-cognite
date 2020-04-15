@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        functions: [example, example2]
+        functions: [hello-cognite]
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-python@v1
